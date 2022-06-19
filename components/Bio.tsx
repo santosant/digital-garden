@@ -11,7 +11,7 @@ const Bio = () => {
           <br />
           <br />
           This is my{' '}
-          <span className='font-bold text-blue-400 underline decoration-wavy underline-offset-8'>
+          <span className='font-bold text-blue-400 dark:text-white underline decoration-wavy underline-offset-8'>
             space
           </span>{' '}
           where i'll share my experiences.

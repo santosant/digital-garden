@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang='en'>
       <Head></Head>
       <title>@hirowf</title>
-      <body className='dark:bg-[#141517] text-black dark:text-gray-400 bg-right-top bg-[rgb(248, 249, 250)] bg-pony bg-no-repeat'>
+      <body className='dark:bg-[#141517] text-black dark:text-gray-400 md:bg-right-top bg-left-bottom bg-[rgb(248, 249, 250)] bg-pony bg-no-repeat'>
         <Main />
         <NextScript />
       </body>
