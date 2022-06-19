@@ -2,7 +2,7 @@
 const Bio = () => {
   return (
     <>
-      <span className='text-3xl font-semibold mb-6 italic'>👋 Hey</span>
+      <span className='text-3xl font-semibold mb-6 italic'>👋 Hey!</span>
       <h2 className='font-semibold text-lg mb-3'>My name is Anderson.</h2>
       <div className='max-w-2xl'>
         <p>
