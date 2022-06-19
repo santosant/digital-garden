@@ -1,16 +1,39 @@
+import { useTheme } from 'next-themes';
 import Link from 'next/link';
 
 const Nav = () => {
+  const { theme, setTheme } = useTheme();
   return (
-    <nav className='relative h-20 bg-white'>
-      <Link href='/' passHref>
-        <h2 className='pointer'>Ebenezer Don</h2>
-      </Link>
+    <div className='mt-8 pb-4 flex items-enter justify-around border-b-2 dark:border-gray-900'>
+      <span className='font-semibold underline underline-offset-8'>
+        @santosantt
+      </span>
 
-      <Link href='/bio' passHref>
-        <p className='ms-5 pointer lead my-auto'>Bio</p>
-      </Link>
-    </nav>
+      <nav>
+        <Link href='/'>
+          <a className='ml-3 hover:underline decoration-wavy underline-offset-8'>
+            home
+          </a>
+        </Link>
+        <Link href='#'>
+          <a className='ml-3 hover:underline decoration-wavy underline-offset-8'>
+            experiences
+          </a>
+        </Link>
+        <Link href='#'>
+          <a className='ml-3 hover:underline decoration-wavy underline-offset-8'>
+            articles
+          </a>
+        </Link>
+      </nav>
+
+      <button
+        className='rounded-md'
+        onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+      >
+        {theme === 'dark' ? '☀️' : '🌙'}
+      </button>
+    </div>
   );
 };
 
