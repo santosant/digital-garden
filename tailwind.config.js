@@ -13,7 +13,11 @@ module.exports = {
         },
       },
     }),
-    extend: {},
+    extend: {
+      backgroundImage: {
+        pony: "url('/pony.png')",
+      },
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 };

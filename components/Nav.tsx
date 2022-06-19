@@ -12,18 +12,18 @@ const Nav = () => {
 
         <nav>
           <Link href='/'>
-            <a className='ml-3 hover:underline decoration-wavy underline-offset-8'>
-              home
+            <a className=' hover:underline decoration-wavy underline-offset-8'>
+              Home
             </a>
           </Link>
-          <Link href='#'>
-            <a className='ml-3 hover:underline decoration-wavy underline-offset-8'>
-              experiences
+          <Link href='/work'>
+            <a className='mx-8 hover:underline decoration-wavy underline-offset-8'>
+              Work
             </a>
           </Link>
-          <Link href='#'>
-            <a className='ml-3 hover:underline decoration-wavy underline-offset-8'>
-              articles
+          <Link href='/articles'>
+            <a className='hover:underline decoration-wavy underline-offset-8'>
+              Articles
             </a>
           </Link>
         </nav>
